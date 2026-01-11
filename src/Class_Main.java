@@ -1,7 +1,7 @@
 // Главный класс с методом main: показывает пример работы корзины
 public class Main {
     public static void main(String[] args) {
-        // Создаём несколько товаров
+        // Создаём несколько товаров(примеры взял из файла условия)
         Product laptop = new Product("Ноутбук", 75000.0);
         Product mouse = new Product("Мышка", 1500.0);
         Product keyboard = new Product("Клавиатура", 3000.0);
