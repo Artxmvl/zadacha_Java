@@ -11,6 +11,7 @@ public class Product {
         this.price = price;
     }
 
+    
     // Геттер для названия
     public String getName() {
         return name;
@@ -21,8 +22,8 @@ public class Product {
         return price;
     }
 
+    
     // Красивый вывод товара
-    @Override
     public String toString() {
         return name + " — " + price + " руб.";
     }
