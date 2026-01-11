@@ -3,6 +3,8 @@ public class Product {
     private String name;   // Название товара
     private double price;  // Цена товара
 
+
+    
     // Конструктор: создаёт товар с заданными названием и ценой
     public Product(String name, double price) {
         this.name = name;
