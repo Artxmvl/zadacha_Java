@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+//просится реализовать 4 функции для взаимодействия
 
 // Класс корзины: хранит список товаров и умеет работать с ним
 public class Cart {
@@ -10,6 +11,8 @@ public class Cart {
         products.add(p);
     }
 
+
+    
     // Метод удаляет товар по названию
     public void removeProduct(String name) {
         for (int i = 0; i < products.size(); i++) {
@@ -33,6 +36,9 @@ public class Cart {
         return total;
     }
 
+
+
+    
     // Метод выводит содержимое корзины и общую сумму в консоль
     public void printCart() {
         System.out.println(" Корзина ");
